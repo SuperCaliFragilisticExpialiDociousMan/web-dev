@@ -3,110 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://kit.fontawesome.com/078cbe450d.js" crossorigin="anonymous"></script>
     <style>
         .wd-selector-1{
             background-color: black;
             color: white;
         }
-        .border-black { border-color: rgb(47, 51, 54); }
 
         .wd-ip1 {
             border-radius: 18px;
             background: darkgray;
-            padding: 20px;
+            padding: 16px;
             width: 600px;
             height: 15px;
-            margin-left: 12px;
+
         }
         ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             color: white;
         }
-        .border-fat { border-width: 20px 30px 20px 30px; }
-        .position_right {text-align: right;}
-        .border-thin { border-width: 4px; }
-        .border-solid { border-style: solid; }
-        .border-dashed { border-style: dashed; }
-        .border-color { border-color: rgb(47, 51, 54); }
-        .border-red { border-color: #ff7070; }
-        .border-blue { border-color: #7070ff; }
-        .pad {
+        .wd-border-thin { border-width: 4px; }
+        .wd-border-solid { border-style: solid; }
+        .wd-border-color { border-color: rgb(47, 51, 54); }
+        .wd-pad {
             padding: 16px;
         }
+
 
     </style>
 </head>
 
 <body>
     <div class="wd-selector-1">
-        <div class="border-thin border-color border-solid border-left" >
-            <input type="text" class="wd-ip1" placeholder="     Search Twitter"/> <br/> <br/>
-            <a style="color: rgb(29,161,242); font-size: 15px;" class="pad";>For you</a>
-            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="pad";>Trending</a>
-            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="pad";>COVID-19</a>
-            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="pad";>News</a>
-            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="pad";>Sports</a>
-            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="pad";>Entertainment</a>
+        <div class="wd-border-thin wd-border-color wd-border-solid"  >
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 10px; position: relative; left: 22px;" ></i>
+            <input type="text" class="wd-ip1" placeholder="   Search Twitter"/>
+            <a class="fa-solid fa-gear" style="color: dodgerblue; text-decoration: None; right: 16px; top: 30px; position: fixed; " href="explore-settings.html" ></a> <br/> <br/>
+            <span style="border-bottom: rgb(29,161,242); border-top: black; border-left: black; border-right: black; border-width: 2px; border-style: solid;"><a style="color: rgb(29,161,242); font-size: 15px;" class="wd-pad";>For you</a></span>
+            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="wd-pad";>Trending</a>
+            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="wd-pad";>COVID-19</a>
+            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="wd-pad";>News</a>
+            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="wd-pad";>Sports</a>
+            <a style="color: rgb(110, 118, 125); font-size: 15px;" class="wd-pad";>Entertainment</a>
 
         </div>
 
-        <div class="border-thin border-color border-solid">
-        <a style="font-size: 13px; color: rgb(110,118,125)" class="pad">Trending in Science</a>
+        <div class="wd-border-thin wd-border-color wd-border-solid">
+        <text style="font-size: 13px; color: rgb(110,118,125)" class="wd-pad">Fields in Statistics</text>
         <br/>
-        <a style="font-size: 13px; color: white" class="pad"><strong>Starship</strong></a>
+        <a style="font-size: 16px; color: white" class="wd-pad"><strong>Scholorship</strong></a>
+        <br/>
+        <text style="font-size: 13px; color: rgb(110,118,125)" class="wd-pad">66.6K Tweets</text>
         </div>
 
-        <div class="border-thin border-color border-solid" style="border-top-style: none">
-        <a style="font-size: 13px; color: rgb(110,118,125)" class="pad">Sports Trending</a>
+        <div class="wd-border-thin wd-border-color wd-border-solid" style="border-top-style: none">
+        <text style="font-size: 13px; color: rgb(110,118,125)" class="wd-pad">Basketball View</text>
         <br/>
-        <a style="font-size: 13px; color: white" class="pad"><strong>Joe Rogan</strong></a>
+        <a style="font-size: 16px; color: white" class="wd-pad"><strong>James Harden</strong></a>
+        <br/>
+        <text style="font-size: 13px; color: rgb(110,118,125)" class="wd-pad">8,316 Tweets</text>
         </div>
 
-        <div class="border-thin border-color border-solid" style="position: relative; border-top-style: none; height: 120px">
-       <span style="float: left;"><a style="font-size: 13px; color: white" class="pad">The New York Times</a>
+        <div class="wd-border-thin wd-border-color wd-border-solid" style="position: relative; border-top-style: none; height: 120px">
+       <span style="float: left;"><text style="font-size: 13px; color: white" class="wd-pad">The Seattle Times</text>
+                                  <text style="font-size: 13px; color: gray" class="wd-pad">   &#8901 Yesterday</text>
         <br/>
-        <br/>
-        <a style="font-size: 13px; color: white" class="pad">
-            <strong>CNN's Cuomo conundrum: A star anchor with a brother in trouble</strong>
+        <a style="font-size: 16px; color: white" class="wd-pad">
+            <strong>Spaceforce: What happens to Mars</strong>
         </a>
        </span>
-       <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px;">
-       <img src="cuiwa.jpg" width='100px' height="100px" />
+       <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px; top: 8px;">
+       <img src="cuiwa.jpg" width='100px' height="100px"  style="border-radius: 25px;" />
            </span>
         </div>
 
-        <div class="border-thin border-color border-solid" style="position: relative; border-top-style: none; height: 120px">
-       <span style="float: left;"><a style="font-size: 8px; color: grey" class="pad">COVID-19 LIVE</a>
+       <div class="wd-border-thin wd-border-color wd-border-solid" style="position: relative; border-top-style: none; height: 120px">
+       <span style="float: left;"><a style="font-size: 13px; color: grey" class="wd-pad">Sports News Live</a>
         <br/>
-        <br/>
-        <a style="font-size: 13px; color: white" class="pad">
-            <strong>COVID-19: News and updates for Massachusetts</strong>
+        <a style="font-size: 16px; color: white" class="wd-pad">
+            <strong>Athletics: How is Winter-Olympics going in Beijing</strong>
         </a>
        </span>
-            <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px;">
-       <img src="MA.png" width='100px' height="100px" />
+            <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px; top: 8px;">
+       <img src="winter_olympics.jpg" width='100px' height="100px"   style="border-radius: 25px;" />
+           </span>
+       </div>
+
+        <div class="wd-border-thin wd-border-color wd-border-solid" style="position: relative; border-top-style: none; height: 120px">
+       <span style="float: left;"><a style="font-size: 13px; color: grey" class="wd-pad">Sports News Live</a>
+        <br/>
+        <a style="font-size: 16px; color: white" class="wd-pad">
+            <strong>Some voice towards Tokyo Summer Olympics from local audience</strong>
+        </a>
+       </span>
+            <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px; top: 8px;">
+       <img src="Tokyo2020.jpg" width='100px' height="100px" style="border-radius: 25px;" />
            </span>
         </div>
 
-        <div class="border-thin border-color border-solid" style="position: relative; border-top-style: none; height: 120px">
+        <div class="wd-border-thin wd-border-color wd-border-solid" style="position: relative; border-top-style: none; height: 120px">
            <span style="position: absolute; left: 16px">
-                <a style="font-size: 13px; color: white" >Bloomberg Opinion</a>
-                <br/>
-                <br/>
-                <a style="font-size: 13px; color: white" >
-                <strong>Thinking about getting a booster? Read this first.</strong>
+                <text style="font-size: 13px; color: white;"  >WLONGONG Medical Center</text>
+               <text style="font-size: 13px; color: gray; padding-left: 32px" >    &#8901 Yesterday</text>
+               <br>
+                <a style="font-size: 16px; color: white" >
+                <strong>Still haven't got vaccinated? You should look into this. </strong>
                 </a>
            </span>
-           <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px;">
-               <img src="coronavirus.jpg" width='100px' height="100px" />
+           <span style="position: absolute; right: 16px; background: black; width: 100px; height: 100px; top: 8px;">
+               <img src="coronavirus.jpg" width='100px' height="100px"  style="border-radius: 25px;" />
            </span>
         </div>
 
 
-        <div class="border-thin border-color border-solid" >
-            <a style="font-size: 13px; color: rgb(110,118,125);" class="pad">Trending in United States</a>
+        <div class="wd-border-thin wd-border-color wd-border-solid" >
+            <text style="font-size: 13px; color: rgb(110,118,125);" class="wd-pad">Fashion in France</text>
             <br/>
-            <a style="font-size: 13px; color: white" class="pad"><strong>Wonder Bread</strong></a>
+            <a style="font-size: 16px; color: white" class="wd-pad"><strong>Louis Vuitton ? or Channel ?</strong></a>
+            <br/>
+            <text style="font-size: 13px; color: rgb(110,118,125);" class="wd-pad">3,206 Tweets</text>
         </div>
+
 
 
     </div>
