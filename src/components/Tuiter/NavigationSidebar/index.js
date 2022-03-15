@@ -51,23 +51,7 @@ const NavigationSidebar = (
     <div className="d-grid mt-2">
     <a href="#" className="btn btn-primary btn-block">
     Tweet</a > </div>
-    <script dangerouslySetInnerHTML={{ __html:
-        `$(function () {
-        var lI = $(".list-group-item");
-        for (let j = 0; j < lI.length; j++) {lI[j].classList.remove("active");
-    }
-        var html = window.location.href;
-        var webpage = html.split("/");
-        var w = webpage[webpage.length-1].split('.')[0];
-        console.log(w);
-        document.getElementById(w).classList.add("active");
 
-        $('.list-group-item').click(function (x) {$('.list-group-item').removeClass("active");
-        var tar = $(x.target);
-        tar.addClass("active");
-    })
-    })` }}
-            />
         </div>
 );
 }
