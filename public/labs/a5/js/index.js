@@ -339,7 +339,8 @@ showBtn.click(showHandler);
 
 
 
-
+const ewq = [28,107,26,65,95];
+console.log(ewq)
 
 
 
