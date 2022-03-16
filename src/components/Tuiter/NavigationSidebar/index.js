@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = (
     {
@@ -12,15 +13,15 @@ const NavigationSidebar = (
     <i className="fab fa-twitter" style={{"color": "white"}}> </i>
     </a >
 
-    <a className="list-group-item " href="../../HomeScreen/ExploreScreen/ExploreScreen.html" id="ExploreScreen" style={{"background-color": "#1e2125", "color": "white"}}>
+    <Link className="list-group-item " to="/tuiter/home" id="ExploreScreen" style={{"background-color": "#1e2125", "color": "white"}}>
     <i className="fa fa-home"> </i>
     <div className="d-none d-xxl-inline d-xl-inline">Home</div>
-    </a >
+    </Link >
 
-    <a className="list-group-item " href= "../../ExploreScreen/ExploreScreen/explore.html" id="explore" style={{"background-color": "#1e2125", "color": "white"}}>
+    <Link className="list-group-item " to="/tuiter/explore" id="explore" style={{"background-color": "#1e2125", "color": "white"}}>
     <i className="fa fa-hashtag"> </i>
     <div className="d-none d-xxl-inline d-xl-inline">Explore</div>
-    </a >
+    </Link >
 
     <a className="list-group-item " href="#" id = "notifications" style={{"background-color": "#1e2125", "color": "white"}}>
     <i className="fa fa-bell"> </i>
