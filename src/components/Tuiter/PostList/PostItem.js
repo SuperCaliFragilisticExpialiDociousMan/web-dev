@@ -29,13 +29,13 @@ const PostItem = ({posts})=> {
                     </div>
                 </div>
                 <div style={{"position": "relative", "top": "13px"}}>
-          <span>     <a className="fa-regular fa-comment"
+          <span>     <a className="fa fa-comment"
                        style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                        href="#">
         </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}>
         {posts.reply} </span>
            </span>
-                    <a className="fa-solid fa-retweet"
+                    <a className="fa fa-retweet"
                        style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                        href="#">
                     </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}>{posts.retweet}</span>
@@ -80,13 +80,13 @@ const PostItem = ({posts})=> {
 
         </div>
         <div style={{"position": "relative", "top": "13px"}}>
-        <span>     <a className="fa-regular fa-comment"
+        <span>     <a className="fa fa-comment"
                       style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                       href="#">
         </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}>
         {posts.reply} </span>
            </span>
-            <a className="fa-solid fa-retweet"
+            <a className="fa fa-retweet"
                style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                href="#">
             </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}>{posts.retweet}</span>
@@ -95,7 +95,7 @@ const PostItem = ({posts})=> {
                style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                href="#">
             </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}> {posts.Like}  </span>
-            <a className="fa-solid fa-arrow-up-from-bracket" style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
+            <a className="fa-light fa-arrow-up-from-bracket" style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                href="#"> </a>
         </div>
         </div>
