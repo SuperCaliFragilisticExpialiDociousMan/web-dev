@@ -2,7 +2,7 @@ import './App.css';
 import './vendors/bootstrap-5.1.3-dist/css/bootstrap.min.css';
 import './vendors/bootstrap-5.1.3-dist/bootstrap.min.css';
 import './vendors/fontawesome-free-5.15.4-web/css/all.min.css';
-
+import "https://kit.fontawesome.com/078cbe450d.js" ;
 
 import HelloWorld from "./components/HelloWorld";
 import Labs from "./components/Labs";
