@@ -95,7 +95,7 @@ const PostItem = ({posts})=> {
                style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                href="#">
             </a> <span style={{"padding-left": "10px", "padding-right": "60px"}}> {posts.Like}  </span>
-            <a className="fa-light fa-arrow-up-from-bracket" style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
+            <a className="fa-solid fa-arrow-up-from-bracket" style={{"font-size":"20px", "text-decoration": "None", "color":"lightgray", "padding-left": "10px"}}
                href="#"> </a>
         </div>
         </div>

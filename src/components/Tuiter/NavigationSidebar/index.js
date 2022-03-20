@@ -1,9 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
+
+
 const NavigationSidebar = (
     {
         active = 'explore'
+
     })=> {
     return (
         <div>
@@ -18,7 +21,7 @@ const NavigationSidebar = (
     <div className="d-none d-xxl-inline d-xl-inline">Home</div>
     </Link >
 
-    <Link className="list-group-item " to="/tuiter/explore" id="explore" style={{"background-color": "#1e2125", "color": "white"}}>
+    <Link className="list-group-item " to="/tuiter/explore" id="explore" style={{"background-color": "#1e2125", "color": "white"}} onclick="SomeJavaScriptCode">
     <i className="fa fa-hashtag"> </i>
     <div className="d-none d-xxl-inline d-xl-inline">Explore</div>
     </Link >
@@ -53,7 +56,10 @@ const NavigationSidebar = (
     <a href="#" className="btn btn-primary btn-block">
     Tweet</a > </div>
 
+
+
         </div>
+
 );
 }
 export default NavigationSidebar;
