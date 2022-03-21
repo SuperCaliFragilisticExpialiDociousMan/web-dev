@@ -5,6 +5,7 @@ import './vendors/fontawesome-free-5.15.4-web/css/all.css';
 import './vendors/fontawesome-free-5.15.4-web/css/all.min.css';
 import './vendors/fontawesome-free-5.15.4-web/css/fontawesome.css';
 import './vendors/fontawesome-free-5.15.4-web/css/fontawesome.min.css';
+import './vendors/fontawesome-free-6.1.0-web/css/all.css';
 import HelloWorld from "./components/HelloWorld";
 import Labs from "./components/Labs";
 import Tuiter from "./components/Tuiter";
