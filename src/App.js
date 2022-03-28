@@ -9,35 +9,42 @@ import './vendors/fontawesome-free-6.1.0-web/css/all.css';
 import HelloWorld from "./components/HelloWorld";
 import Labs from "./components/Labs";
 import Tuiter from "./components/Tuiter";
-import ExploreScreen from "./components/Tuiter/ExploreScreen/ExploreScreen";
-import HomeScreen from "./components/Tuiter/HomeScreen/HomeScreen";
-import {BrowserRouter, Route} from "react-router-dom";
-import { BrowserRouter as Routes} from "react-router-dom";
+import ExploreScreen from "./components/Tuiter/explore-screen/index";
+import HomeScreen from "./components/Tuiter/home-screen/index";
+import ProfileScreen from "./components/Tuiter/profile/index";
+import EditProfileScreen from "./components/Tuiter/editprofile/index";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
 
 function App() {
     return (
         <BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route path="/">
-                        <Route path="labs"
-                               element={<Labs/>}/>
-                        <Route path="hello"
-                               element={<HelloWorld/>}/>
-                        <Route path="tuiter"
-                               element={<Tuiter/>}>
-                            <Route index
-                                   element={<HomeScreen/>}/>
-                            <Route path="explore"
-                                   element={<ExploreScreen/>}/>
-
-                        </Route>
+                    <Route path="/"
+                           element={<Labs/>}/>
+                    <Route path="/labs"
+                           element={<Labs/>}/>
+                    <Route path="/tuiter"
+                           element={<Tuiter/>}>
+                        <Route path="home"
+                               element={<HomeScreen/>}/>
+                        <Route path="explore"
+                               element={<ExploreScreen/>}/>
+                        <Route path="profile"
+                               element={<ProfileScreen active="profile"/>}/>
+                        <Route path="editprofile"
+                               element={<EditProfileScreen/>}/>
                     </Route>
+
                 </Routes>
             </div>
         </BrowserRouter>
     );
 }
+
+
+
 
 export default App;
 
