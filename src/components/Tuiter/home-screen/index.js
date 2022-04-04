@@ -19,7 +19,7 @@ const HomeScreen = () => {
                         <h2>Home</h2>
                     </div>
                     <div>
-                        <WhatsHappening/>
+
                         <TuitList/>
                     </div>
                 </div>
