@@ -34,7 +34,7 @@ function App() {
                         <Route path="profile"
                                element={<ProfileScreen active="profile"/>}/>
                         <Route path="editprofile"
-                               element={<EditProfileScreen/>}/>
+                               element={<EditProfileScreen active="profile"/>}/>
                     </Route>
 
                 </Routes>

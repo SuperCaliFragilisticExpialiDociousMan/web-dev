@@ -2,7 +2,6 @@ import React from "react";
 import EditProfileList from './profile';
 import {Link} from "react-router-dom";
 import NavigationSidebar from "../NavigationSidebar";
-import ProfileList from "../profile/profile";
 import WhoToFollowList from "../WhoToFollowList";
 
 

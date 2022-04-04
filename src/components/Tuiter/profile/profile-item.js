@@ -27,7 +27,7 @@ const ProfListItem = ({prof={
                 <img src={prof.profilePicture} height="100px" width="100px" style={{"border-radius": "50%", "float": "left"}}/>
                 <Link to="/tuiter/editprofile" id="editprofile" style={{"background-color": "#1e2125", "color": "white"}}>
                     <div style={{"bottom":"60px", "right":"20px", "position":"absolute"}}>
-                        <button onClick="myFunction()" style={{"color":"white", "background-color":"black", "border-radius": "30%"}}>Edit profile</button>
+                        <button style={{"color":"white", "background-color":"black", "border-radius": "30%"}}>Edit profile</button>
                     </div>
                 </Link >
                 <div>
