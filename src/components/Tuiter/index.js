@@ -3,14 +3,13 @@ import NavigationSidebar from "./NavigationSidebar";
 import "./tuiter.css";
 import whoReducer from "./reducers/who-reducer";
 import tuits from "./reducers/tuit-reducer";
-import profileReducer from "./reducers/profile-reducer";
+import profile from "./reducers/profile-reducer";
 import {createStore, combineReducers} from "redux";
 import {Provider} from "react-redux";
 
-import WhoToFollowList from "./WhoToFollowList";
 
 const reducers =
-    combineReducers({whoReducer, tuits, profileReducer})
+    combineReducers({whoReducer, tuits, profile})
 const store = createStore(reducers);
 
 const Tuiter = () => {

@@ -12,7 +12,7 @@ import Tuiter from "./components/Tuiter";
 import ExploreScreen from "./components/Tuiter/explore-screen/index";
 import HomeScreen from "./components/Tuiter/home-screen/index";
 import ProfileScreen from "./components/Tuiter/profile/index";
-import EditProfileScreen from "./components/Tuiter/editprofile/index";
+import EditProfileScreen from "./components/Tuiter/profile/EditProfile";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 

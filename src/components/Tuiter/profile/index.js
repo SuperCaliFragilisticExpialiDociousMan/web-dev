@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileList from './profile';
+import ProfileComponent from "./ProfileComponent";
 import NavigationSidebar from "../NavigationSidebar";
 import {Outlet} from "react-router-dom";
 import WhoToFollowList from "../WhoToFollowList";
@@ -18,7 +18,7 @@ const ProfileScreen = () => {
                         <h2>Profile</h2>
                     </div>
                     <div>
-                        <ProfileList/>
+                        <ProfileComponent/>
                     </div>
                 </div>
                 <div className="d-none d-lg-block col-lg-4 col-xl-4">
@@ -27,9 +27,9 @@ const ProfileScreen = () => {
             </div>
 
 
-
         </div>
 
     );
 };
 export default ProfileScreen;
+

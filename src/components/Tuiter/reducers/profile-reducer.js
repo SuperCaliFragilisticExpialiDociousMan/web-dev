@@ -1,14 +1,25 @@
-const profileData=[ {
-    firstName: "Martin", lastName: "Shi", handle: "Code Elite",
-    profilePicture: "../../../../tuiter/martin.jpg",     bannerPicture: "../../../../tuiter/interstellar.jpg",
-    bio: "Student, Data Scientist, Algorithm Engineer, adept at data mining / deep learning / data modeling, has experience on Bayesian Biostatistics / Quantitative Finance",
-    website: "youtube.com/webdevtv",
-    location: "Boston, MA",    dateOfBirth: "3/1998",    dateJoined: "12/2020",
-    followingCount: 312,    followersCount: 180
-} ]
+import profile from '../profile/profiledata'
 
-const ProfileReducer = () => {
-    return profileData;
-}
-
-export default ProfileReducer;
+const profileReducer = (state = profile, action) =>{
+    switch (action.type) {
+        case 'save':
+            const newProfile = {
+                name: action.name.name,
+                bio: action.bio.bio,
+                website: action.web.web,
+                location: action.local.local,
+                dateOfBirth: action.birth.birth,
+                dateOfJoined: action.join.join,
+                handle: 'jose_joestar',
+                profilePicture: '../../../tuiter/martin.jpg',
+                bannerPicture: '../../../tuiter/interstellar.jpg',
+                dateJoined: '1/2022',
+                followingCount: 312,
+                followersCount: 180
+            }
+            return (newProfile);
+        default:
+            return profile;
+    }
+};
+export default profileReducer;

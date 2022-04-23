@@ -2,11 +2,7 @@
 
 const WhoToFollowListItem = (
     {
-        who = {
-            avatarIcon: '../../../../tuiter/nasa.png',
-            userName: 'NASA',
-            handle: 'NASA',
-        }
+        who
     }) =>
 {
     return (

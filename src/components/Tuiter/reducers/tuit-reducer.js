@@ -29,8 +29,13 @@ const tuitReducer =
                     tuit: action.tuit,
                     _id: (new Date()).getTime() + '',
                     postedBy: {
-                        "username": "ReactJS"
+                        "username": "AppleMan"
                     },
+                    handle: "Apple Man",
+                    postedOn: "2022-04-23",
+                    time: "now",
+                    logo_image: "../../../../tuiter/boys.jpg",
+                    avatar_image: "../../../../tuiter/scottmanley.jpg",
                     stats: {
                         retuits: 111,
                         likes: 222,
